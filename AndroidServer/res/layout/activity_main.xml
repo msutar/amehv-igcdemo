@@ -1,0 +1,61 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="android.igc.server.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+ <AbsoluteLayout
+     android:id="@+id/widget0"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent" >
+
+     <Button
+         android:id="@+id/StartCommButton"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="73dip"
+         android:layout_y="28dip"
+         android:text="Start Server" />
+
+     <EditText
+         android:id="@+id/TxDataBox"
+         android:layout_width="289dp"
+         android:layout_height="wrap_content"
+         android:layout_x="128dp"
+         android:layout_y="304dp"
+         android:ems="10"
+         android:text="Data 2 Send" />
+
+     <TextView
+         android:id="@+id/RxTextView"
+         android:layout_width="267dp"
+         android:layout_height="100dp"
+         android:layout_x="156dp"
+         android:layout_y="152dp"
+         android:text="No Data"
+         android:textSize="18sp" />
+
+     <Button
+         android:id="@+id/RxLabel"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_x="450dp"
+         android:layout_y="148dp"
+         android:clickable="false"
+         android:focusable="false"
+         android:focusableInTouchMode="false"
+         android:text="Data Received " />
+
+     <Button
+         android:id="@+id/SendData"
+         android:layout_width="131dp"
+         android:layout_height="wrap_content"
+         android:layout_x="454dp"
+         android:layout_y="296dp"
+         android:text="Send Data" />
+
+ </AbsoluteLayout>
+
+</FrameLayout>
